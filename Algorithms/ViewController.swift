@@ -16,6 +16,10 @@ class ViewController: UIViewController {
     
     func testAlgos() {
         
+//        var result = ""
+        
+        /*
+        
         //Unique Letters
         var result = UniqueLetters.option1(input: "AAAABBBBCCCCC")
         print("Result UniqueLetters 1: ", result)
@@ -41,6 +45,26 @@ class ViewController: UIViewController {
         
         result = StringContainAnother.option2(input: "abcc", subString: "a")
         print("Result StringContainAnother: ", result)
+        */
+        
+        // Count chars in string
+//        StringCountTheChars.option1(char: "a", input: "The rain in Spain")
+//        StringCountTheChars.option1(char: "i", input: "Mississippi")
+        
+        var result = EvenOddArray.option3(input: [0,1,2,3,4,5,6,7,80,90,101])
+        print(result)
+        
+        result = EvenOddArray.option3(input: [0])
+        print(result)
+        
+        result = EvenOddArray.option3(input: [0,2,4,6,8,10])
+        print(result)
+        
+        result = EvenOddArray.option3(input: [1,3,5,7,9])
+        print(result)
+        
+        result = EvenOddArray.option3(input: [1,3,50,5,7,9])
+        print(result)
     }
 
 }

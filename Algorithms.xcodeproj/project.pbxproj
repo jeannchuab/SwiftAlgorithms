@@ -18,6 +18,7 @@
 		957185D82850E3D10061644C /* StringContainSameChar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957185D72850E3D10061644C /* StringContainSameChar.swift */; };
 		957185DA2850EA960061644C /* StringContainAnother.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957185D92850EA960061644C /* StringContainAnother.swift */; };
 		957185DC2850EF090061644C /* StringCountCharOccurrence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957185DB2850EF090061644C /* StringCountCharOccurrence.swift */; };
+		95A5D4CC2891C4A5006F0809 /* EvenOddArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A5D4CB2891C4A5006F0809 /* EvenOddArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		957185D72850E3D10061644C /* StringContainSameChar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringContainSameChar.swift; sourceTree = "<group>"; };
 		957185D92850EA960061644C /* StringContainAnother.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringContainAnother.swift; sourceTree = "<group>"; };
 		957185DB2850EF090061644C /* StringCountCharOccurrence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringCountCharOccurrence.swift; sourceTree = "<group>"; };
+		95A5D4CB2891C4A5006F0809 /* EvenOddArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenOddArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				957185D72850E3D10061644C /* StringContainSameChar.swift */,
 				957185D32850E0460061644C /* UniqueLetters.swift */,
 				957185DB2850EF090061644C /* StringCountCharOccurrence.swift */,
+				95A5D4CB2891C4A5006F0809 /* EvenOddArray.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				957185D82850E3D10061644C /* StringContainSameChar.swift in Sources */,
 				957185D62850E2680061644C /* Palindrome.swift in Sources */,
 				957185C32850E0120061644C /* ViewController.swift in Sources */,
+				95A5D4CC2891C4A5006F0809 /* EvenOddArray.swift in Sources */,
 				957185BF2850E0120061644C /* AppDelegate.swift in Sources */,
 				957185DA2850EA960061644C /* StringContainAnother.swift in Sources */,
 				957185C12850E0120061644C /* SceneDelegate.swift in Sources */,
