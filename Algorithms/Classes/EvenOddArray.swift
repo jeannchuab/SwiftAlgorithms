@@ -31,51 +31,45 @@ class EvenOddArray {
         print("\("Even: Par:"): \(arrayEven)")
         print("\("Odd: Impar:"): \(arrayOdd)")
         
+        //Puts arrayEven + ArrayOdd together and return
+        
         return [Int]()
-        
     }
-    
-    static func option2(input: [Int]) -> [Int] {
-        var arrayEvenOdd: [Int] = []
-                                
-        for number in input {
-            if arrayEvenOdd.isEmpty {
-                arrayEvenOdd.append(number)
-            } else {
-                
-                if number.isMultiple(of: 2) { //Even par
-                    if let firstEvenIndex = arrayEvenOdd.firstIndex(where: { $0.isMultiple(of: 2) }) {
-                        arrayEvenOdd.insert(number, at: firstEvenIndex)
-                    } else {
-                        arrayEvenOdd.insert(number, at: 0)
-                    }
-                } else {
-                    if let firstOddIndex = arrayEvenOdd.firstIndex(where: { !$0.isMultiple(of: 2) }) {
-                        arrayEvenOdd.insert(number, at: firstOddIndex)
-                    } else {
-                        arrayEvenOdd.append(number)
-                    }
-                }
-            }
-        }
-        
-        return arrayEvenOdd
-    }
-    
+            
     static func option3(input: [Int]) -> [Int] {
         var arrayEvenOdd: [Int] = []
                                 
         for number in input {
             if number.isMultiple(of: 2) {
-                //Insert the even at the beginning
+                //Insert the even (par) at the beginning
                 arrayEvenOdd.insert(number, at: 0)
             } else {
-                //Append the odd in the end of the array
+                //Append the odd (impar) in the end of the array
                 arrayEvenOdd.append(number)
             }
         }
         
         return arrayEvenOdd
     }
-}
+    
+    static func option4(input: inout [Int]) {
+        var i = 0
+        var count = 0
+        while (count < input.count) {
+            if !input[i].isMultiple(of: 2) {
+                input.append(input[i])
+                input.remove(at: i) //remove() operation will be O(N) in the worst case scenario, making the whole algorithm O(N**2)
+                i = i == 0 ? i : i - 1
+            } else {
+                i += 1
+            }
+            count += 1
+        }
 
+        print(input)
+    }
+    
+    static func option5(input: inout [Int]) {
+        //TODO: need to keep two pointers, one to the start and another to the end of the array, move them towards each other and swap when there’s a discrepancy
+    }
+}
