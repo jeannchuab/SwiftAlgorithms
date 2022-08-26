@@ -6,13 +6,38 @@
 //
 
 import UIKit
+import Combine
+
+protocol MyProtocol {
+    
+}
+
+struct MyTest: MyProtocol {
+    let value: Int = 0
+}
+
+extension UIViewController {
+    
+}
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         testAlgos()
+//        let years = [15, 2, 67, 4, 5]
+//        let sum = years.filter({ $0 < 10 }).map({ $0 * 2 }).reduce(5, +)
+//        print(sum)
     }
+    
+    //TODO: Search for it
+    func doSomething(){
+        defer { print("a") }
+        defer { print("b") }
+        defer { print("c") }
+        print("d")
+    }
+    
     
     func testAlgos() {
         
@@ -67,20 +92,43 @@ class ViewController: UIViewController {
 //        result = EvenOddArray.option3(input: [1,3,50,5,7,9])
 //        print(result)
         
-        var inputArray = [7,2,1,3,50,60,5,11]
-        EvenOddArray.option4(input: &inputArray)
+//        var inputArray = [7,2,1,3,50,60,5,11]
+//        EvenOddArray.option4(input: &inputArray)
+//
+//        var text = "The rain in Spain"
+//        print(CountChar.option1(input: text, char: "a"))
+//        print(CountChar.option1(input: text, char: "i"))
+//        print(CountChar.option2(input: text, char: "a"))
+//        print(CountChar.option2(input: text, char: "i"))
+//        print(CountChar.option3(input: text, char: "a"))
+//        print(CountChar.option3(input: text, char: "i"))
+//        print(CountChar.option4(input: text, char: "a"))
+//        print(CountChar.option4(input: text, char: "i"))
+//
+//        text = "The rain in Spain"
+//        print(RemoveDuplicateFromString.option1(input: text))
+                        
+//        value = [[5,5,4], [3,3], [101,101]]
+//        print(HighestValueInMatrix.option1(cards: value))
         
-        let text = "The rain in Spain"
-        print(CountChar.option1(input: text, char: "a"))
-        print(CountChar.option1(input: text, char: "i"))
-        print(CountChar.option2(input: text, char: "a"))
-        print(CountChar.option2(input: text, char: "i"))
-        print(CountChar.option3(input: text, char: "a"))
-        print(CountChar.option3(input: text, char: "i"))
-        print(CountChar.option4(input: text, char: "a"))
-        print(CountChar.option4(input: text, char: "i"))
-        print(CountChar.option5(input: text, char: "a"))
-        print(CountChar.option5(input: text, char: "i"))
+//        print(ArrayRotation.solution(A: [], K: 0))
+//        print(ArrayRotation.solution(A: [1,2,3,4,5], K: 1))
+//        print(ArrayRotation.solution(A: [1,2,3,4,5], K: 2))
+//        print(ArrayRotation.solution(A: [1,2,3,4,5], K: 3))
+//        print(ArrayRotation.solution(A: [1,2,3,4,5], K: 4))
+//        print(ArrayRotation.solution(A: [1,2,3,4,5], K: 5))
+        
+        print(DashPhoneNumber.solution("00-44   48 5555 8361"))
+        print(DashPhoneNumber.solution("00-44   48 5555 83610"))
+
+        print(DashPhoneNumber.solution("123456789"))
+        print(DashPhoneNumber.solution("12345"))
+        print(DashPhoneNumber.solution("0000"))
+        print(DashPhoneNumber.solution("00"))
+        print(DashPhoneNumber.solution("012 345 6"))
+        print(DashPhoneNumber.solution("------0123       444"))
+        
+        //12345-67
     }
 
 }

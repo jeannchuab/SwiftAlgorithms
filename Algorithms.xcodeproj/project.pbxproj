@@ -19,7 +19,11 @@
 		957185DA2850EA960061644C /* StringContainAnother.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957185D92850EA960061644C /* StringContainAnother.swift */; };
 		957185DC2850EF090061644C /* StringCountCharOccurrence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957185DB2850EF090061644C /* StringCountCharOccurrence.swift */; };
 		95A5D4CC2891C4A5006F0809 /* EvenOddArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A5D4CB2891C4A5006F0809 /* EvenOddArray.swift */; };
+		95EB357628B5918A0078695A /* ArrayRotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EB357528B5918A0078695A /* ArrayRotation.swift */; };
+		95EB357828B8328E0078695A /* DashPhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95EB357728B8328D0078695A /* DashPhoneNumber.swift */; };
 		95F12DE328AD29AD0066010A /* CountChars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F12DE228AD29AD0066010A /* CountChars.swift */; };
+		95F12DE528AD34300066010A /* RemoveDuplicateFromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F12DE428AD34300066010A /* RemoveDuplicateFromString.swift */; };
+		95F12DE728B019540066010A /* HighestValueInMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F12DE628B019540066010A /* HighestValueInMatrix.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +41,11 @@
 		957185D92850EA960061644C /* StringContainAnother.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringContainAnother.swift; sourceTree = "<group>"; };
 		957185DB2850EF090061644C /* StringCountCharOccurrence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringCountCharOccurrence.swift; sourceTree = "<group>"; };
 		95A5D4CB2891C4A5006F0809 /* EvenOddArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenOddArray.swift; sourceTree = "<group>"; };
+		95EB357528B5918A0078695A /* ArrayRotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayRotation.swift; sourceTree = "<group>"; };
+		95EB357728B8328D0078695A /* DashPhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashPhoneNumber.swift; sourceTree = "<group>"; };
 		95F12DE228AD29AD0066010A /* CountChars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountChars.swift; sourceTree = "<group>"; };
+		95F12DE428AD34300066010A /* RemoveDuplicateFromString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicateFromString.swift; sourceTree = "<group>"; };
+		95F12DE628B019540066010A /* HighestValueInMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighestValueInMatrix.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +100,10 @@
 				957185DB2850EF090061644C /* StringCountCharOccurrence.swift */,
 				95A5D4CB2891C4A5006F0809 /* EvenOddArray.swift */,
 				95F12DE228AD29AD0066010A /* CountChars.swift */,
+				95F12DE428AD34300066010A /* RemoveDuplicateFromString.swift */,
+				95F12DE628B019540066010A /* HighestValueInMatrix.swift */,
+				95EB357528B5918A0078695A /* ArrayRotation.swift */,
+				95EB357728B8328D0078695A /* DashPhoneNumber.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -167,8 +179,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95F12DE528AD34300066010A /* RemoveDuplicateFromString.swift in Sources */,
 				957185D42850E0460061644C /* UniqueLetters.swift in Sources */,
 				957185DC2850EF090061644C /* StringCountCharOccurrence.swift in Sources */,
+				95EB357828B8328E0078695A /* DashPhoneNumber.swift in Sources */,
 				957185D82850E3D10061644C /* StringContainSameChar.swift in Sources */,
 				957185D62850E2680061644C /* Palindrome.swift in Sources */,
 				957185C32850E0120061644C /* ViewController.swift in Sources */,
@@ -176,6 +190,8 @@
 				957185BF2850E0120061644C /* AppDelegate.swift in Sources */,
 				95F12DE328AD29AD0066010A /* CountChars.swift in Sources */,
 				957185DA2850EA960061644C /* StringContainAnother.swift in Sources */,
+				95EB357628B5918A0078695A /* ArrayRotation.swift in Sources */,
+				95F12DE728B019540066010A /* HighestValueInMatrix.swift in Sources */,
 				957185C12850E0120061644C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
