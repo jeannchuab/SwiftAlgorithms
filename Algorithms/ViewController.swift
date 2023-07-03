@@ -118,15 +118,22 @@ class ViewController: UIViewController {
 //        print(ArrayRotation.solution(A: [1,2,3,4,5], K: 4))
 //        print(ArrayRotation.solution(A: [1,2,3,4,5], K: 5))
         
-        print(DashPhoneNumber.solution("00-44   48 5555 8361"))
-        print(DashPhoneNumber.solution("00-44   48 5555 83610"))
-
-        print(DashPhoneNumber.solution("123456789"))
-        print(DashPhoneNumber.solution("12345"))
-        print(DashPhoneNumber.solution("0000"))
-        print(DashPhoneNumber.solution("00"))
-        print(DashPhoneNumber.solution("012 345 6"))
-        print(DashPhoneNumber.solution("------0123       444"))
+//        print(DashPhoneNumber.solution("00-44   48 5555 8361"))
+//        print(DashPhoneNumber.solution("00-44   48 5555 83610"))
+//
+//        print(DashPhoneNumber.solution("123456789"))
+//        print(DashPhoneNumber.solution("12345"))
+//        print(DashPhoneNumber.solution("0000"))
+//        print(DashPhoneNumber.solution("00"))
+//        print(DashPhoneNumber.solution("012 345 6"))
+//        print(DashPhoneNumber.solution("------0123       444"))
+        
+//        let array = [1,2,3,4,5]
+//        print(array.reduce(0, +))
+        
+        // NOT SOLVED
+        let result = Steps.findProcesses("field", "bread", ["gather:field:wheat","bake:flour:bread","mill:wheat:flour"])
+        print("Result of steps is:", result)
         
         //12345-67
     }
