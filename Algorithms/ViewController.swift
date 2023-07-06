@@ -6,37 +6,30 @@
 //
 
 import UIKit
-import Combine
 
-protocol MyProtocol {
-    
-}
 
-struct MyTest: MyProtocol {
-    let value: Int = 0
-}
-
-extension UIViewController {
-    
-}
 
 class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         testAlgos()
+        
+        var a = A()
+        print(a.fibonacciOfNumber)
+                
 //        let years = [15, 2, 67, 4, 5]
 //        let sum = years.filter({ $0 < 10 }).map({ $0 * 2 }).reduce(5, +)
 //        print(sum)
     }
     
     //TODO: Search for it
-    func doSomething(){
-        defer { print("a") }
-        defer { print("b") }
-        defer { print("c") }
-        print("d")
-    }
+//    func doSomething(){
+//        defer { print("a") }
+//        defer { print("b") }
+//        defer { print("c") }
+//        print("d")
+//    }
     
     
     func testAlgos() {
@@ -132,8 +125,10 @@ class ViewController: UIViewController {
 //        print(array.reduce(0, +))
         
         // NOT SOLVED
-        let result = Steps.findProcesses("field", "bread", ["gather:field:wheat","bake:flour:bread","mill:wheat:flour"])
-        print("Result of steps is:", result)
+//        let result = Steps.findProcesses("field", "bread", ["gather:field:wheat","bake:flour:bread","mill:wheat:flour"])
+//        print("Result of steps is:", result)
+        
+        
         
         //12345-67
     }

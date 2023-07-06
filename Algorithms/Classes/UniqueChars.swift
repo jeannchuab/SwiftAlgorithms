@@ -6,8 +6,9 @@
 //
 
 import Foundation
+import UIKit
 
-class UniqueLetters {
+class UniqueChars {
     
     /*  Are the letters unique?
         input = "123" return true
@@ -34,5 +35,20 @@ class UniqueLetters {
     
     static func option2(input: String) -> Bool {
         return Set(input).count == input.count
+    }
+    
+    static func option3(input: String) -> Bool {
+        
+        var foundChar = [Character:Bool]()
+        let arrayChars = Array(input) //Convert string to chars array
+        
+        for c in arrayChars {
+            if foundChar[c] != nil {
+                return false
+            }
+            foundChar[c] = true
+        }                
+        
+        return true
     }
 }
