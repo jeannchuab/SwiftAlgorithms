@@ -12,4 +12,3 @@ class Palindrome {
         return input.lowercased().reversed() == Array(input.lowercased())
     }
 }
-

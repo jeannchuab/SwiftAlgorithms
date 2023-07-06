@@ -10,6 +10,8 @@
 		0F2BD4762A4B6DE70073EE40 /* StepsOneItemToAnother.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2BD4752A4B6DE70073EE40 /* StepsOneItemToAnother.swift */; };
 		0F9FDBFC2A538F5D004D659A /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9FDBFB2A538F5D004D659A /* Fibonacci.swift */; };
 		0F9FDC012A56F8D9004D659A /* UniqueCharsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9FDC002A56F8D9004D659A /* UniqueCharsTest.swift */; };
+		0F9FDC032A570162004D659A /* Permutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9FDC022A570162004D659A /* Permutation.swift */; };
+		0F9FDC052A57061D004D659A /* PermutationTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9FDC042A57061D004D659A /* PermutationTest.swift */; };
 		0FE1DDF12A53681B009E59BA /* MaximumSumSubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE1DDF02A53681B009E59BA /* MaximumSumSubarray.swift */; };
 		0FE1DE092A536E3A009E59BA /* MaximumSumSubArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE1DE062A536DBF009E59BA /* MaximumSumSubArrayTests.swift */; };
 		957185BF2850E0120061644C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957185BE2850E0120061644C /* AppDelegate.swift */; };
@@ -45,6 +47,8 @@
 		0F2BD4752A4B6DE70073EE40 /* StepsOneItemToAnother.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsOneItemToAnother.swift; sourceTree = "<group>"; };
 		0F9FDBFB2A538F5D004D659A /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
 		0F9FDC002A56F8D9004D659A /* UniqueCharsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniqueCharsTest.swift; sourceTree = "<group>"; };
+		0F9FDC022A570162004D659A /* Permutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutation.swift; sourceTree = "<group>"; };
+		0F9FDC042A57061D004D659A /* PermutationTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermutationTest.swift; sourceTree = "<group>"; };
 		0FE1DDF02A53681B009E59BA /* MaximumSumSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSumSubarray.swift; sourceTree = "<group>"; };
 		0FE1DDF92A536C1D009E59BA /* AlgorithmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FE1DE062A536DBF009E59BA /* MaximumSumSubArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSumSubArrayTests.swift; sourceTree = "<group>"; };
@@ -99,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				0FE1DE062A536DBF009E59BA /* MaximumSumSubArrayTests.swift */,
+				0F9FDC042A57061D004D659A /* PermutationTest.swift */,
 				0F9FDC002A56F8D9004D659A /* UniqueCharsTest.swift */,
 			);
 			path = AlgorithmsTests;
@@ -148,6 +153,7 @@
 				95F12DE628B019540066010A /* HighestValueInMatrix.swift */,
 				0FE1DDF02A53681B009E59BA /* MaximumSumSubarray.swift */,
 				957185D52850E2680061644C /* Palindrome.swift */,
+				0F9FDC022A570162004D659A /* Permutation.swift */,
 				95F12DE428AD34300066010A /* RemoveDuplicateFromString.swift */,
 				0F2BD4752A4B6DE70073EE40 /* StepsOneItemToAnother.swift */,
 				957185D92850EA960061644C /* StringContainAnother.swift */,
@@ -262,6 +268,7 @@
 			files = (
 				0F9FDC012A56F8D9004D659A /* UniqueCharsTest.swift in Sources */,
 				0FE1DE092A536E3A009E59BA /* MaximumSumSubArrayTests.swift in Sources */,
+				0F9FDC052A57061D004D659A /* PermutationTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +278,7 @@
 			files = (
 				95F12DE528AD34300066010A /* RemoveDuplicateFromString.swift in Sources */,
 				957185D42850E0460061644C /* UniqueChars.swift in Sources */,
+				0F9FDC032A570162004D659A /* Permutation.swift in Sources */,
 				957185DC2850EF090061644C /* StringCountCharOccurrence.swift in Sources */,
 				95EB357828B8328E0078695A /* DashPhoneNumber.swift in Sources */,
 				957185D82850E3D10061644C /* StringContainSameChar.swift in Sources */,
