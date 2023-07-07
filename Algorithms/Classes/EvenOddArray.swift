@@ -21,9 +21,9 @@ class EvenOddArray {
         var arrayOdd: [Int] = []
         
         for number in input {
-            if number % 2 == 0 { //Even
+            if number % 2 == 0 { //Even (Par)
                 arrayEven.append(number)
-            } else { //Odd
+            } else { //Odd (Impar)
                 arrayOdd.append(number)
             }
         }

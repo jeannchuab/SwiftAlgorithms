@@ -16,6 +16,8 @@
 		0F9FDC092A573971004D659A /* URLifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9FDC082A573971004D659A /* URLifyTests.swift */; };
 		0F9FDC0B2A575729004D659A /* StringEdits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9FDC0A2A575729004D659A /* StringEdits.swift */; };
 		0F9FDC0D2A575829004D659A /* StringEditsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9FDC0C2A575829004D659A /* StringEditsTests.swift */; };
+		0F9FDC0F2A587171004D659A /* ValidBrackets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9FDC0E2A587171004D659A /* ValidBrackets.swift */; };
+		0F9FDC112A58770E004D659A /* ValidBracketsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9FDC102A58770E004D659A /* ValidBracketsTests.swift */; };
 		0FE1DDF12A53681B009E59BA /* MaximumSumSubarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE1DDF02A53681B009E59BA /* MaximumSumSubarray.swift */; };
 		0FE1DE092A536E3A009E59BA /* MaximumSumSubArrayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE1DE062A536DBF009E59BA /* MaximumSumSubArrayTests.swift */; };
 		957185BF2850E0120061644C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957185BE2850E0120061644C /* AppDelegate.swift */; };
@@ -57,6 +59,8 @@
 		0F9FDC082A573971004D659A /* URLifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLifyTests.swift; sourceTree = "<group>"; };
 		0F9FDC0A2A575729004D659A /* StringEdits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEdits.swift; sourceTree = "<group>"; };
 		0F9FDC0C2A575829004D659A /* StringEditsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEditsTests.swift; sourceTree = "<group>"; };
+		0F9FDC0E2A587171004D659A /* ValidBrackets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidBrackets.swift; sourceTree = "<group>"; };
+		0F9FDC102A58770E004D659A /* ValidBracketsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidBracketsTests.swift; sourceTree = "<group>"; };
 		0FE1DDF02A53681B009E59BA /* MaximumSumSubarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSumSubarray.swift; sourceTree = "<group>"; };
 		0FE1DDF92A536C1D009E59BA /* AlgorithmsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlgorithmsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FE1DE062A536DBF009E59BA /* MaximumSumSubArrayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumSumSubArrayTests.swift; sourceTree = "<group>"; };
@@ -115,6 +119,7 @@
 				0F9FDC002A56F8D9004D659A /* UniqueCharsTest.swift */,
 				0F9FDC082A573971004D659A /* URLifyTests.swift */,
 				0F9FDC0C2A575829004D659A /* StringEditsTests.swift */,
+				0F9FDC102A58770E004D659A /* ValidBracketsTests.swift */,
 			);
 			path = AlgorithmsTests;
 			sourceTree = "<group>";
@@ -172,6 +177,7 @@
 				0F9FDC0A2A575729004D659A /* StringEdits.swift */,
 				957185D32850E0460061644C /* UniqueChars.swift */,
 				0F9FDC062A5737C5004D659A /* URLify.swift */,
+				0F9FDC0E2A587171004D659A /* ValidBrackets.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -279,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F9FDC012A56F8D9004D659A /* UniqueCharsTest.swift in Sources */,
+				0F9FDC112A58770E004D659A /* ValidBracketsTests.swift in Sources */,
 				0FE1DE092A536E3A009E59BA /* MaximumSumSubArrayTests.swift in Sources */,
 				0F9FDC0D2A575829004D659A /* StringEditsTests.swift in Sources */,
 				0F9FDC092A573971004D659A /* URLifyTests.swift in Sources */,
@@ -304,6 +311,7 @@
 				95A5D4CC2891C4A5006F0809 /* EvenOddArray.swift in Sources */,
 				957185BF2850E0120061644C /* AppDelegate.swift in Sources */,
 				95F12DE328AD29AD0066010A /* CountChars.swift in Sources */,
+				0F9FDC0F2A587171004D659A /* ValidBrackets.swift in Sources */,
 				957185DA2850EA960061644C /* StringContainAnother.swift in Sources */,
 				95EB357628B5918A0078695A /* ArrayRotation.swift in Sources */,
 				95F12DE728B019540066010A /* HighestValueInMatrix.swift in Sources */,
