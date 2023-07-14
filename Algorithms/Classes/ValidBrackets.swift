@@ -27,7 +27,9 @@ import Foundation
 
 class ValidBrackets {
     static func option1(input: String) -> Bool {
-        var array: [Character] = []
+        var parentheses: [Character] = []
+        var brackets: [Character] = []
+        var braces: [Character] = []
         
         //The string must contain a even number to be valid
         if input.count % 2 != 0 {
@@ -35,12 +37,53 @@ class ValidBrackets {
         }
         
         for item in input {
-            if item == "(" {
-                array.append(item)
-            } else if !array.isEmpty {
-                array.removeLast()
+            switch item {
+            case "(" : parentheses.append(item)
+            case "[" : brackets.append(item)
+            case "{" : braces.append(item)
+            case ")" :
+                if !parentheses.isEmpty {
+                    parentheses.removeLast()
+                } else {
+                    return false
+                }
+            case "]" :
+                if !brackets.isEmpty {
+                    brackets.removeLast()
+                } else {
+                    return false
+                }
+            case "}" :
+                if !braces.isEmpty {
+                    braces.removeLast()
+                } else {
+                    return false
+                }
+            default:
+                return false                                                
             }
         }
-        return array.isEmpty
-    }    
+        return (parentheses.isEmpty && brackets.isEmpty && braces.isEmpty)
+    }
+    
+    static func solution2(input: String) -> Bool {
+        
+        guard input.count % 2 == 0 else { return false }
+                
+            var stack: [Character] = []
+            
+            for ch in input {
+                switch ch {
+                case "(": stack.append(")")
+                case "[": stack.append("]")
+                case "{": stack.append("}")
+                default:
+                    if stack.isEmpty || stack.removeLast() != ch {
+                        return false
+                    }
+                }
+            }
+            
+            return stack.isEmpty
+    }
 }
