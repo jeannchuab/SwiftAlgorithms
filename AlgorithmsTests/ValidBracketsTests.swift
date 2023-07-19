@@ -32,7 +32,8 @@ class ValidBracketsTests: XCTestCase {
 //
 //        XCTAssertEqual(ValidBrackets.option1(input: "(}[]{)"), false)
 //        XCTAssertEqual(ValidBrackets.option1(input: "{[()]"), false)
-                
+        
+        //TODO: Fix
         XCTAssertEqual(ValidBrackets.option1(input: "{[}]"), false)
         XCTAssertEqual(ValidBrackets.option1(input: "{}[]"), false)
     }

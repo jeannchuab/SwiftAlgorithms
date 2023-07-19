@@ -10,6 +10,9 @@ import Foundation
 /*
 Write a function that takes an array of Random Integers as the input and
  returns an array where all the Even numbers are at the beginning and all the Odd numbers are at the end.
+ 
+ PT: Pares no começo e ímpares no final
+ 
  Solve with O(n) efficiency and O(1) memory.
 */
 
@@ -68,8 +71,40 @@ class EvenOddArray {
 
         print(input)
     }
-    
-    static func option5(input: inout [Int]) {
-        //TODO: need to keep two pointers, one to the start and another to the end of the array, move them towards each other and swap when there’s a discrepancy
+        
+    static func solution5(input: [Int]) -> [Int] {
+        //Keep two pointers, one to the start and another to the end of the array, move them towards each other and swap when there’s a discrepancy
+        
+        var result = input
+        
+        for i in 0..<input.count/2 {
+            
+            //Checking if is a odd number
+            if result[i] % 2 != 0 {
+                print("number is odd", result[i])
+                
+                if result[result.count - i - 1] % 2 == 0 {
+                    print("numbers in the wrong place")
+                    
+                    //Swipe the numbers
+                    let temp = result[i]
+                    result[i] = result[result.count - i - 1]
+                    result[result.count - i - 1] = temp
+                }
+            } else if result[i + 1] % 2 != 0 {
+                print("number is odd", result[i + 1])
+                
+                if result[result.count - i - 1] % 2 == 0 {
+                    print("numbers in the wrong place")
+                    
+                    //Swipe the numbers
+                    let temp = result[i + 1]
+                    result[i + 1] = result[result.count - i - 1]
+                    result[result.count - i - 1] = temp
+                }
+            }
+        }
+        
+        return result
     }
 }
