@@ -50,7 +50,7 @@ class FilterMovies {
                 }
                 
                 result = result + "name=\(movie.name), username=\(movie.username), email=\(movie.email);"
-                print("name=\(movie.name), username=\(movie.username), email=\(movie.email);")
+                //print("name=\(movie.name), username=\(movie.username), email=\(movie.email);")
             }
         }
         
