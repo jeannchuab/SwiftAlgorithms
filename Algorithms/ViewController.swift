@@ -21,6 +21,11 @@ class ViewController: UIViewController {
 //        let years = [15, 2, 67, 4, 5]
 //        let sum = years.filter({ $0 < 10 }).map({ $0 * 2 }).reduce(5, +)
 //        print(sum)
+        
+        CharFrequencie.option1(input: "aaaaabbbbb ccc")
+        CharFrequencie.option1(input: "abc")
+        CharFrequencie.option1(input: "qut")
+        CharFrequencie.option1(input: "qutoooooo - oooooo")
     }
     
     //TODO: Search for it

@@ -46,6 +46,12 @@
 		95F12DE328AD29AD0066010A /* CountChars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F12DE228AD29AD0066010A /* CountChars.swift */; };
 		95F12DE528AD34300066010A /* RemoveDuplicateFromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F12DE428AD34300066010A /* RemoveDuplicateFromString.swift */; };
 		95F12DE728B019540066010A /* HighestValueInMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F12DE628B019540066010A /* HighestValueInMatrix.swift */; };
+		9A668C832DCB94FC00B197C0 /* CharFrequencie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A668C822DCB94F600B197C0 /* CharFrequencie.swift */; };
+		9A668C852DCB95D100B197C0 /* CharFrequencieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A668C842DCB95C900B197C0 /* CharFrequencieTests.swift */; };
+		9A668C872DCB983600B197C0 /* FirstNonRepeatingChar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A668C862DCB982D00B197C0 /* FirstNonRepeatingChar.swift */; };
+		9A668C892DCB992C00B197C0 /* FirstNonRepeatingCharTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A668C882DCB992A00B197C0 /* FirstNonRepeatingCharTests.swift */; };
+		9A9E33812C4706AA00F710C5 /* WordsNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9E33802C4706AA00F710C5 /* WordsNotification.swift */; };
+		9A9E33832C47098900F710C5 /* WordsNotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9E33822C47098900F710C5 /* WordsNotificationTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +107,12 @@
 		95F12DE228AD29AD0066010A /* CountChars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountChars.swift; sourceTree = "<group>"; };
 		95F12DE428AD34300066010A /* RemoveDuplicateFromString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicateFromString.swift; sourceTree = "<group>"; };
 		95F12DE628B019540066010A /* HighestValueInMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighestValueInMatrix.swift; sourceTree = "<group>"; };
+		9A668C822DCB94F600B197C0 /* CharFrequencie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharFrequencie.swift; sourceTree = "<group>"; };
+		9A668C842DCB95C900B197C0 /* CharFrequencieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharFrequencieTests.swift; sourceTree = "<group>"; };
+		9A668C862DCB982D00B197C0 /* FirstNonRepeatingChar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstNonRepeatingChar.swift; sourceTree = "<group>"; };
+		9A668C882DCB992A00B197C0 /* FirstNonRepeatingCharTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstNonRepeatingCharTests.swift; sourceTree = "<group>"; };
+		9A9E33802C4706AA00F710C5 /* WordsNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsNotification.swift; sourceTree = "<group>"; };
+		9A9E33822C47098900F710C5 /* WordsNotificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsNotificationTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,8 +144,11 @@
 		0FE1DDFA2A536C1D009E59BA /* AlgorithmsTests */ = {
 			isa = PBXGroup;
 			children = (
+				9A668C882DCB992A00B197C0 /* FirstNonRepeatingCharTests.swift */,
+				9A668C842DCB95C900B197C0 /* CharFrequencieTests.swift */,
 				0F9C59372A68768E0061C703 /* EvenOddArrayTests.swift */,
 				0FFD5E792A5C504600CA5BDD /* FilterMoviesTests.swift */,
+				0F3F63612AE877670090BF59 /* LongestDistinctRouteTests.swift */,
 				0FE1DE062A536DBF009E59BA /* MaximumSumSubArrayTests.swift */,
 				0FA193E72A9FCB5500C33CBF /* MaxRepeatedWordsTests.swift */,
 				0F9C59392A687E360061C703 /* PalindromeTests.swift */,
@@ -142,7 +157,7 @@
 				0F9FDC002A56F8D9004D659A /* UniqueCharsTests.swift */,
 				0F9FDC082A573971004D659A /* URLifyTests.swift */,
 				0F9FDC102A58770E004D659A /* ValidBracketsTests.swift */,
-				0F3F63612AE877670090BF59 /* LongestDistinctRouteTests.swift */,
+				9A9E33822C47098900F710C5 /* WordsNotificationTests.swift */,
 			);
 			path = AlgorithmsTests;
 			sourceTree = "<group>";
@@ -184,13 +199,16 @@
 		957185D22850E02D0061644C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				9A668C862DCB982D00B197C0 /* FirstNonRepeatingChar.swift */,
 				0FFD5E752A5C441500CA5BDD /* AgeCounting.swift */,
 				95EB357528B5918A0078695A /* ArrayRotation.swift */,
+				9A668C822DCB94F600B197C0 /* CharFrequencie.swift */,
 				95F12DE228AD29AD0066010A /* CountChars.swift */,
 				95EB357728B8328D0078695A /* DashPhoneNumber.swift */,
 				95A5D4CB2891C4A5006F0809 /* EvenOddArray.swift */,
 				0FFD5E772A5C500C00CA5BDD /* FilterMovies.swift */,
 				95F12DE628B019540066010A /* HighestValueInMatrix.swift */,
+				0F3F635F2AE876E10090BF59 /* LongestDistinctRoute.swift */,
 				0FE1DDF02A53681B009E59BA /* MaximumSumSubarray.swift */,
 				0FA193E52A9FCA3800C33CBF /* MaxRepeatedWords.swift */,
 				957185D52850E2680061644C /* Palindrome.swift */,
@@ -204,7 +222,7 @@
 				957185D32850E0460061644C /* UniqueChars.swift */,
 				0F9FDC062A5737C5004D659A /* URLify.swift */,
 				0F9FDC0E2A587171004D659A /* ValidBrackets.swift */,
-				0F3F635F2AE876E10090BF59 /* LongestDistinctRoute.swift */,
+				9A9E33802C4706AA00F710C5 /* WordsNotification.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -312,11 +330,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F9FDC012A56F8D9004D659A /* UniqueCharsTests.swift in Sources */,
+				9A668C852DCB95D100B197C0 /* CharFrequencieTests.swift in Sources */,
 				0F9FDC112A58770E004D659A /* ValidBracketsTests.swift in Sources */,
 				0FE1DE092A536E3A009E59BA /* MaximumSumSubArrayTests.swift in Sources */,
 				0F9C593A2A687E360061C703 /* PalindromeTests.swift in Sources */,
+				9A9E33832C47098900F710C5 /* WordsNotificationTests.swift in Sources */,
 				0FA193E82A9FCB5500C33CBF /* MaxRepeatedWordsTests.swift in Sources */,
 				0F9FDC0D2A575829004D659A /* StringEditsTests.swift in Sources */,
+				9A668C892DCB992C00B197C0 /* FirstNonRepeatingCharTests.swift in Sources */,
 				0F9FDC092A573971004D659A /* URLifyTests.swift in Sources */,
 				0F9C59382A68768E0061C703 /* EvenOddArrayTests.swift in Sources */,
 				0F9FDC052A57061D004D659A /* PermutationTests.swift in Sources */,
@@ -351,9 +372,12 @@
 				95EB357628B5918A0078695A /* ArrayRotation.swift in Sources */,
 				0F3F63602AE876E10090BF59 /* LongestDistinctRoute.swift in Sources */,
 				95F12DE728B019540066010A /* HighestValueInMatrix.swift in Sources */,
+				9A668C872DCB983600B197C0 /* FirstNonRepeatingChar.swift in Sources */,
 				0F2BD4762A4B6DE70073EE40 /* StepsOneItemToAnother.swift in Sources */,
+				9A9E33812C4706AA00F710C5 /* WordsNotification.swift in Sources */,
 				957185C12850E0120061644C /* SceneDelegate.swift in Sources */,
 				0FE1DDF12A53681B009E59BA /* MaximumSumSubarray.swift in Sources */,
+				9A668C832DCB94FC00B197C0 /* CharFrequencie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,7 @@
 
 /*
  This was a challenge to Turing, to complete in 30 minutes.
- Return the highest UNIQUE value, if the value occures more than once in a array it's not valid
+ Return the highest UNIQUE value, if the value occurs more than once in a array it's not valid
  
  */
 

@@ -18,6 +18,7 @@ class MaxRepeatedWordsTests: XCTestCase {
         XCTAssertEqual(MaxRepeatedWords.option1(input: "llll", word: "ll"), 3)
         XCTAssertEqual(MaxRepeatedWords.option1(input: "aaxaa", word: "aa"), 2)
         XCTAssertEqual(MaxRepeatedWords.option1(input: "hellohello", word: "ll"), 2)
+        XCTAssertEqual(MaxRepeatedWords.option1(input: "hellohello", word: "hello"), 2)
         XCTAssertEqual(MaxRepeatedWords.option1(input: "hellohelloll", word: "ll"), 3)
         XCTAssertEqual(MaxRepeatedWords.option1(input: "apple banana apple banana banana apple banana banana", word: "banana"), 5)
     }
